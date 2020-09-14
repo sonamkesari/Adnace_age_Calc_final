@@ -14,7 +14,7 @@ function age_calc1()
 }
 function age_calc2()
 {
-	var DOB= prompt("Plz enter ur DOB in DD/MM/YYYY");
+	var DOB= prompt("Please enter your Date of Birth in DD/MM/YYYY");
 	var year= DOB.split('/')[2];
 	var month=DOB.split('/')[1];
 	var day=DOB.split('/')[0];
